@@ -1,0 +1,65 @@
+/*body {   
+ background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+
+}
+
+#page_title{
+	text-align: center;
+	border-top-left-radius: 20px;
+	border-top-right-radius:2;
+	text-shadow: 1px 1px 1px darkgrey;
+	color: grey;
+	background-color: pink;
+	letter-spacing: .1em;
+}
+
+h1 {
+	text-align: center;
+	background-color: pink;
+	border-radius:30px;
+
+}
+
+.top_nav_item {
+	margin:10px;
+	color: maroon;
+	font-size: 1.2em;
+	text-decoration: none;
+}
+
+.top_nav_item:hover {
+	margin:10px;
+	color: white;
+	text-decoration: none;
+}
+
+#current_page {
+	border-bottom: 3px solid pink;
+}
+
+#page_content {
+	width:85%
+	margin: auto;
+}
+
+#description{
+	padding: 30px;
+	color:grey;
+	background-color: pink;
+	margin: auto;
+	width:80%;
+	height:400px;
+
+}
+
+#top_nav{
+	text-align: right;
+}
+img {
+	border:darkgrey 3px solid;
+	box-shadow: 8px 8px 5px lightgrey;
+	text-align: center;
+	float: left;
+	margin-right:5px;
+}
+*/

@@ -1,0 +1,44 @@
+body,html{
+	height: 100%;
+	width: 100%;
+}
+body {
+	background-image: url(landscape.jpg);
+	background-position: center center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	margin: 0;
+}
+
+.gallery {
+	text-align: center;
+
+}
+
+.photo {
+	border: solid 2px maroon;
+	display: inline-block;
+	width:30%;
+	background: rgba(255,255,255, .5);
+
+}
+
+img {
+	object-fit:cover;
+	width:300px;
+	height:300px;
+}
+
+h1 {
+	text-align: center;
+	color: white;
+}
+
+@media only screen and (max-width:600px) {
+	.photo {
+	border: solid 2px maroon;
+	display: block;
+	width:80%;
+	background: rgba(255,255,255, .5);
+	margin: auto;
+}

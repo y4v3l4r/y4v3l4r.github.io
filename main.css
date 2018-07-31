@@ -1,0 +1,81 @@
+body {
+	 background-image: url("images/waters.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+	}
+
+#title{
+	text-align: center;
+	background-color:pink;
+	text-shadow: grey;
+	border-radius:30px;
+}
+.top_nav_item {
+	margin: 10px;
+	color: midnightblue;
+}
+
+img {
+	border:darkgrey 3px solid;
+	box-shadow: 8px 8px 5px lightgrey;
+	text-align: center;
+}
+
+h1 {
+	align-self: center;
+	border-radius:30px;
+
+}
+ 
+.top_nav_item {
+	margin:10px;
+	color: maroon;
+	font-size: 1.2em;
+	text-decoration: none;
+}
+
+.top_nav_item:hover {
+	margin:10px;
+	color: white;
+	text-decoration: none;
+}
+#current_page {
+	border-bottom: 3px solid pink;
+}
+#top_nav{
+	text-align: right;
+}
+.gallery {
+	text-align: center;
+
+}
+.photo {
+	border: solid 2px maroon;
+	display: inline-block;
+	width:30%;
+	background: rgba(255,255,255, .5);
+
+}
+img {
+	object-fit:cover;
+	width:355px;
+	height:400px;
+}
+h1 {
+	text-align: center;
+}
+
+iframe {
+	display: block;
+	margin: auto;
+}
+
+@media only screen and (max-width:600px) {
+	.photo {
+	border: solid 2px maroon;
+	display: block;
+	width:200%;
+	background: rgba(255,255,255, .5);
+	margin: auto;
+}
